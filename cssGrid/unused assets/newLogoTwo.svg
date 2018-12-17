@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 504 504" style="enable-background:new 0 0 504 504;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#29abe9;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+		stroke-dasharray: 1000;
+  		stroke-dashoffset: 1000;
+  		
+		animation: dash 10s linear alternate infinite;
+	
+		animation-delay: 1s;
+	}
+
+	@keyframes dash {
+	  from {
+		stroke-dashoffset: 1000;
+	  }
+	  to {
+		stroke-dashoffset: 0;
+		
+	  }
+	}
+</style>
+<g id="Layer_2">
+	<polygon class="st0" points="340.8,282.7 343.9,301.3 243.8,407.8 306.7,306.6 	"/>
+	<polygon class="st0" points="153.3,293.6 157.6,313.2 242.5,407.8 186.1,313.1 	"/>
+	<polyline class="st0" points="306.7,306.6 244.3,287.8 186.1,313.1 	"/>
+	<polyline class="st0" points="317.1,299.3 289.2,290.7 276.7,297.4 	"/>
+	<polyline class="st0" points="220.5,298.2 208,288.6 174.8,306.4 	"/>
+</g>
+<g id="Layer_2_copy">
+	<polyline class="st0" points="304.7,206 338.6,183 246,96.2 154.3,193.4 188.2,212.3 	"/>
+	<polyline class="st0" points="304.7,206 244.3,187.8 188.2,212.3 	"/>
+	<line class="st0" x1="244.3" y1="187.8" x2="246" y2="96.2"/>
+	<polyline class="st0" points="338.6,183 340.8,201.5 320.4,195.4 	"/>
+	<polyline class="st0" points="263.9,193.7 244.7,205.7 228.8,194.6 	"/>
+	<polyline class="st0" points="154.3,193.4 163.2,211.7 175.8,204.9 	"/>
+</g>
+</svg>
