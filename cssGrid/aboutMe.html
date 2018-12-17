@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="position.css">
+<link rel="stylesheet" href="basics.css">
+<link rel="stylesheet" href="farbtastic.css">
+<!--		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+<script type="text/javascript" src="farbtastic.js"></script>
+<script type="text/javascript" src="modal.js"></script>
+	
+<head>
+<style>
+	
+	body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+	.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+	.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+	
+</style>
+	
+
+<body class="w3-light-grey">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block background w3-animate-right w3-top w3-text-black w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+<a href="index.html" onclick="w3_close()" class="changeColorText w3-bar-item w3-button w3-center w3-padding-32">Home</a> 
+  <a href="portfolioDesign.html" onclick="w3_close()" class="changeColorText w3-bar-item w3-button w3-center w3-padding-16">Design</a> 
+  <a href="portfolioDevelopment.html" onclick="w3_close()" class="changeColorText w3-bar-item w3-button w3-center w3-padding-16">Development</a> 
+  <a href="aboutMe.html" onclick="w3_close()" class="changeColorText w3-bar-item w3-button w3-center w3-padding-16">About</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top background w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding changeColorText">About Me</span>
+  <a href="javascript:void(0)" class="w3-right w3-button background changeColorText" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal background modal" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button background w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" alt="me" class="w3-image changeColorText">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div class="w3-container background w3-center w3-padding-32" id="about">
+
+    <div class="w3-content w3-justify" style="max-width:600px">
+
+<img src="face1.jpg" alt="mahface">
+		
+<style>
+	img {
+		border-radius: 150px;
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  width: 40%;
+	}		
+</style>
+		</br>
+		  
+<p class="changeColorText"><strong>Who am I?</strong>
+			</br>
+	Hi, my name is dylan powell and I am a senior graphic design student at Umass Dartmouth. I am from Boston Massachusetts and currently work as a freelance designer as well a security guard. Over the years Ive tried to study and learn as many different facets of design as I can. I started with learning the basics of raster and vector imaging but over the years have branched out into photography and UI/UX design. With the marketplace for technology constantly changing I am hoping to stake my claim by entering the work force with a broad range of skills and talents that will make me a better designer as a whole.
+			</br>
+	<strong>What do I do?</strong>
+	</br>
+	As a UI/UX designer, I am jack of many trades in the best of ways. I take a broad set of skills and apply them in a practical way. I believe this well rounded knowledge will allow me to be an asset to your team as I will be able to effectively communicate between different groups and bridge gaps across the workplace.
+	</br>
+</p>
+      <p class="changeColorText">mail: dylanpatrickpowell@gmail.com</p>
+      <hr class="w3-opacity">
+      <h4 class="w3-padding-16 changeColorText">Technical Skills</h4>
+      <p class="w3-wide changeColorText">Personal Skills</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-center w3-grey changeColorText" style="width:80%">80%</div>
+      </div>
+      <p class="w3-wide changeColorText">Drive</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-center w3-grey changeColorText" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide changeColorText">Communication</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-center w3-grey changeColorText" style="width:75%">75%</div>
+      </div>
+		<p class="w3-wide changeColorText">Talent</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-center w3-grey changeColorText" style="width:70%">70%</div>
+      </div>
+		</br>
+		
+		
+		
+<div class="footer">
+	<!-- Trigger/Open The Modal -->
+	<div id="myBtn"><p id="buttonText" class="changeColorText">Click Here to See Accessibility Options</p></div>
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+  	<!-- Modal content -->
+  	<div class="modal-content background">
+				
+		<span class="close">&times;</span>
+			
+			<form><input type="text" id="textColor" name="color" value="#123456" /></form>
+
+		<div id="colorpickerText"></div>
+
+			<form><input type="text" id="backColor" name="color" value="#fff" /></form>
+		
+		<select class="fontSelector changeColorText">
+		  <option value="Serif">serif</option>
+		  <option value="Sans-serif">sans serif</option>
+		  <option value="Monospace">comic sans</option>
+		</select>
+
+		<div id="colorpickerBack"></div>
+		
+			<button id="btnTwo" class="changeColorText">click here to set color</button>
+	
+		</div>
+					
+	<p></p>
+				
+</div>
+	
+<script type="text/javascript">
+
+	$(document).ready(function() {
+
+    	$('#colorpickerText').farbtastic('#textColor');
+
+ 	});
+				
+	$(document).ready(function() {
+
+    	$('#colorpickerBack').farbtastic('#backColor');
+
+  	});
+
+</script>
+			
+			
+			
+	</div>
+</div>
+		
+
+  </div>
+  </div>
+
+
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
+
+	
+	
+</body>
+</html>

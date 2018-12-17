@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{display:inline;fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#29ABE2;stroke-width:9;stroke-linecap:round;stroke-miterlimit:10;opacity:0.2;
+		stroke-dasharray: 1000;
+  		stroke-dashoffset: 1000;
+  		
+		animation: dash 10s linear alternate infinite;
+	
+		animation-delay: 1s;
+	}
+
+	@keyframes dash {
+	  from {
+		stroke-dashoffset: 1000;
+	  }
+	  to {
+		stroke-dashoffset: 0;
+		
+	  }
+	}	
+	
+	.st5{fill:none;stroke:#29ABE2;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;opacity:0.2;
+		stroke-dasharray: 1000;
+  		stroke-dashoffset: 1000;
+  		
+		animation: dash 10s linear alternate infinite;
+	
+		animation-delay: 1s;
+	}
+
+	@keyframes dash {
+	  from {
+		stroke-dashoffset: 1000;
+	  }
+	  to {
+		stroke-dashoffset: 0;
+		
+	  }
+	}	
+	
+	.st6{fill:none;stroke:#29ABE2;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;opacity:0.2;
+		stroke-dasharray: 1000;
+  		stroke-dashoffset: 1000;
+  		
+		animation: dash 10s linear alternate infinite;
+	
+		animation-delay: 1s;
+	}
+
+	@keyframes dash {
+	  from {
+		stroke-dashoffset: 1000;
+	  }
+	  to {
+		stroke-dashoffset: 0;
+		
+	  }
+	}	
+</style>
+<g id="Layer_1">
+</g>
+<g id="Layer_2" class="st0">
+	<g class="st1">
+		<line class="st2" x1="-0.5" y1="768.5" x2="1365.5" y2="0.5"/>
+	</g>
+	<line class="st3" x1="1365.5" y1="768.5" x2="-0.5" y2="0.5"/>
+</g>
+<g id="Layer_3">
+	<polygon class="st4" points="819.5,462 683.7,541.2 547.2,463.2 546.5,306 682.3,226.8 818.8,304.8 	"/>
+</g>
+<g id="Layer_4">
+	<polyline class="st5" points="-1,549 682,167 682,0 	"/>
+	<polyline class="st6" points="-17,540 666,158 666,-9 	"/>
+	<line class="st5" x1="499.1" y1="328" x2="1.1" y2="609"/>
+	<line class="st5" x1="499.1" y1="390" x2="1.1" y2="671"/>
+	<line class="st6" x1="499.1" y1="454" x2="1.1" y2="735"/>
+	<line class="st6" x1="516" y1="506" x2="46" y2="771"/>
+	<line class="st5" x1="573" y1="537" x2="159" y2="771"/>
+	<line class="st5" x1="643" y1="565" x2="278" y2="771"/>
+	<polyline class="st5" points="385.7,773.5 1085,379 1079,768 	"/>
+	<polyline class="st6" points="369.7,800.5 1069,406 1063,795 	"/>
+</g>
+</svg>

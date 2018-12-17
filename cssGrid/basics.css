@@ -4,6 +4,15 @@
     align-items: center;
     font-size: 2em;
     color: #ffeead;
+
+/*
+  height: 100%;
+  background-image: url(background.svg);
+  background-size: cover;
+	background-repeat: no-repeat;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+*/
 }
 
 html, body {
@@ -11,16 +20,26 @@ html, body {
 }
 
 .header {
-	background-color: white;
+/*	background-color: white;*/
 }
 
 /*text styling*/
-.header, .flip-card-inner, .flip-card-front, .flip-card-back p {
+.header, .flip-card-inner, .flip-card-front, .flip-card-back p, a {
 	
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	letter-spacing:1.4px;
-	word-spacing: 100px;
+	text-decoration: none;
+	
+}
+
+.textMenu {
+	text-align: left;
+	font-size: 18px;
+	color: #29abe9;
+	letter-spacing:1.4px;
+	margin-left: 10px;
+	margin-right: 10px;
 	
 }
 
@@ -64,33 +83,44 @@ html, body {
 	
 }
 
+.about {
+	
+	padding: 40px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.about img{
+	
+	width: 80%;
+	
+}
 .footer {
 	
-	background-color: white;
+	
 
 }
 
 .footer p{
 	
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
 	letter-spacing:1.4px;
-	word-spacing: 100px;
+/*	word-spacing: 100px;*/
 	color: #29abe9;
+	font-size: 22px;
 	
 }
 
 /* button styling */
 #myBtn {
-    background-color: white; 
+/*    background-color: white; */
     border: none;
-    color: #29abe9;
-    padding: 12px 26px;
+/*    color: #29abe9;*/
+    padding: 8px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 	border-radius: 10px;
-    font-size: 16px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -98,19 +128,18 @@ html, body {
 }
 
 #myBtn:hover {
-    background-color: #29abe9; 
+/*    background-color: #29abe9; */
+	opacity: 0.5;
     color: black; 
     border: 2px solid white;
 }
-
-
 
 
 .flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
+/*  border: 1px solid #f1f1f1;*/
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -139,22 +168,36 @@ html, body {
 }
 
 /* Style the front side (fallback if image is missing) */
-.flip-card-front {
+/*.flip-card-front {
   background-color: white;
   color: white;
-}
+}*/
 
 /* Style the back side */
 .flip-card-back {
-  background-color: white;
+/*  background-color: white;*/
   color: #29abe9;
   transform: rotateY(180deg);
-}
-
-.flip-card-back p {
-	font-size: 18px;
 	margin-top: 100px;
 }
+
+.flip-card-back a {
+	font-size: 18px;
+	text-decoration-color: #29abe9;
+	color: #29abe9;
+}
+
+
+/*savage about me*/
+#bracketSavage {
+	margin-top: 20px;
+}
+
+/*savage octogone*/
+#newlogoSavage {
+	margin-top: 20px;	
+}
+
 .container > div:nth-child(1n) {
 /*  background-color: #96ceb4;	*/
 }
@@ -208,3 +251,120 @@ html, body {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+/*
+.st0{fill:none;stroke:#29abe9;stroke-width:5;stroke-miterlimit:10;
+				stroke-dasharray: 1000;
+				stroke-dashoffset: 1000;
+
+				animation: dash 10s linear alternate infinite;
+
+				animation-delay: 1s;
+			}
+
+			@keyframes dash {
+			  from {
+				stroke-dashoffset: 1000;
+			  }
+			  to {
+				stroke-dashoffset: 0;
+
+			  }
+			}	
+
+			.st1{font-family:'KozGoPr6N-Regular-90ms-RKSJ-H';}
+			.st2{font-size:388.6717px;}
+*/
+
+
+	.st0{fill:none;stroke:#27AAE1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray: 1000;
+				stroke-dashoffset: 1000;
+
+				animation: dash 10s linear alternate infinite;
+
+				animation-delay: 1s;
+			}
+
+			@keyframes dash {
+			  from {
+				stroke-dashoffset: 1000;
+			  }
+			  to {
+				stroke-dashoffset: 0;
+
+			  }
+			}	
+.st1{display:none;fill:none;stroke:#00AEEF;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray: 1000;
+				stroke-dashoffset: 1000;
+
+				animation: dash 10s linear alternate infinite;
+
+				animation-delay: 1s;
+			}
+
+			@keyframes dash {
+			  from {
+				stroke-dashoffset: 1000;
+			  }
+			  to {
+				stroke-dashoffset: 0;
+
+			  }
+			}	
+	.st2{fill:none;stroke:#00AEEF;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray: 1000;
+				stroke-dashoffset: 1000;
+
+				animation: dash 10s linear alternate infinite;
+
+				animation-delay: 1s;
+			}
+
+			@keyframes dash {
+			  from {
+				stroke-dashoffset: 1000;
+			  }
+			  to {
+				stroke-dashoffset: 0;
+
+			  }
+			}	
+
+.st0{fill:none;stroke:#27AAE1;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;
+				stroke-dasharray: 1000;
+				stroke-dashoffset: 1000;
+
+				animation: dash 10s linear alternate infinite;
+
+				animation-delay: 1s;
+			}
+
+			@keyframes dash {
+			  from {
+				stroke-dashoffset: 1000;
+			  }
+			  to {
+				stroke-dashoffset: 0;
+
+			  }
+			}		
+	.st1{fill:none;stroke:#2CAADC;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;
+				stroke-dasharray: 1000;
+				stroke-dashoffset: 1000;
+
+				animation: dash 10s linear alternate infinite;
+
+				animation-delay: 1s;
+			}
+
+			@keyframes dash {
+			  from {
+				stroke-dashoffset: 1000;
+			  }
+			  to {
+				stroke-dashoffset: 0;
+
+			  }
+			}	
+
